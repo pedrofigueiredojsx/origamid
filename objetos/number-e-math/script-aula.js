@@ -1,0 +1,28 @@
+console.log(Number.isNaN('NaN'));
+console.log(Number.isInteger(10.3));
+
+console.log(parseFloat(' 2302,21'));
+console.log(parseFloat('100.27 reais', 10));
+console.log(parseInt('100.27 reais'));
+console.log(parseInt(23.45, 10));
+
+const preco = 10.32445;
+console.log(+preco.toFixed());
+
+let valor = 48.49;
+valor = valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+
+console.log(valor);
+console.log(Math.PI);
+
+const Matemtica = {
+  PI: 3.14,
+}
+
+// const aleatorio = Math.floor(Math.random() * 500);
+// const aleatorio = Math.floor(Math.random() * (max - min + 1)) + min;
+const aleatorio = Math.floor(Math.random() * (40 - 20 + 1)) + 20;
+
+
+console.log(aleatorio);
+
