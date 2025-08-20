@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "eslint": "^9.33.0",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.101.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "name": "animais-webpack",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production ./js/script.js -o ./main.js",
+    "dev": "webpack --mode development --watch ./js/script.js -o ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
